@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quiz_App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="main">
+            <div id="box">
+            <h2 id="quesBox"> 1)This is the dummy questions </h2> 
+                <div class="row">
+                    <input class="options" id="Option1" type="radio" value="a" name="option"/>
+                    <label  for="Option1" >Option1</label>
+                   
+                </div>
+                <div class="row">
+                    <input  class="options" id="Option2" type="radio" value="b"  name="option">
+                    <label for="Option2" >Option2</label>
+                </div>
+                <div class="row">
+                    <input  class="options" id="Option3" type="radio" value="c"  name="option">
+                    <label for="Option3">Option3</label>
+                    
+                </div>
+                <div class="row">
+                    <input  class="options" id="Option4" type="radio" value="d"  name="option">
+                    <label for="Option4">Option4</label>
+                  
+                </div>
+                <button class="btn" onclick="submitQuiz()">
+                    Submit
+                </button>
+        </div>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
